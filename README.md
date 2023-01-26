@@ -1,2 +1,2 @@
 # Seasonal-streamflow-extremes-forecast-NRB
-This repository provides the dataset for the Narmada River Basin (NRB), R, and STAN scripts for implementing the Bayesian Hierarchical Model Combination (BHMC) framework proposed in _Ossandón et al. (2022)_. 
+This repository provides the dataset for the Narmada River Basin (NRB), R, and STAN scripts for implementing space-time Bayesian hierarchical modeling (BHM) framework for two flood risk attributes  - seasonal daily maximum flow and the number of events that exceed a threshold during a season (NEETM) - at five gauge locations on the Narmada River Basin proposed in _Ossandón et al. (2022)_. 
