@@ -1,5 +1,5 @@
-##Calibration_Nst_Poisson_1cov_sgst_best_dif_month_lead
-##last update: 16/01/23
+##Calibration_Nst_Poisson_sgst_best_dif_month_lead
+##last update: 27/01/23
 
 ##before running the script
 ##### go to >>Session >> Set Working Directory >> To source file location
@@ -21,6 +21,7 @@ LeadT=4#enter the lead time 0-3 for month lead time. For stationary model, enter
 if (LeadT==4){
   folder1="POI_stationary"
   pred="St"
+  N_sea=pred
 } else if (LeadT>=0 & LeadT<4) {
   N_sea=paste(LeadT,"mth",sep="")
   folder1=paste("POI_",LeadT,"mth",sep="")
